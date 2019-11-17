@@ -36,14 +36,31 @@ header {margin-bottom: 20px;}
 
 img { width: 100%; }
 
-a { 
-	color: red;
-	text-decoration: none;
-	 }
-a:hover { color: black; }
 
 /* NAVS */
 
+li {
+  display: inline;
+}
+
+ul { width: 95%;
+padding: 10px;}
+
+.home_button {float: left;}
+
+
+nav 
+	{background-color: black;
+	margin-bottom: 15px;
+	margin-bottom: 15px;
+	text-align: right;}
+
+a 
+	{ color: orange;
+	text-decoration: none;
+padding: 10px;}
+
+a:hover { color: white; }
 
 /* GRIDS */
 
@@ -65,7 +82,7 @@ a:hover { color: black; }
 	body { background-color: skyblue;}
 	.grid {
 	
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns:1fr 1fr;
 	width: 70%;
 	}
 
