@@ -1,4 +1,4 @@
-/* Enter your Styles below! */
+/* TEXT/HEADERS */
 
 
 body { 
@@ -32,7 +32,8 @@ blockquote {
 
 header {margin-bottom: 20px;}
 
-/* ensures that your images stretch the width of their containers */
+/* IMGS ensures that your images stretch the width of their containers */
+
 img { width: 100%; }
 
 a { 
@@ -40,6 +41,11 @@ a {
 	text-decoration: none;
 	 }
 a:hover { color: black; }
+
+/* NAVS */
+
+
+/* GRIDS */
 
 .grid {
 	display: grid;
