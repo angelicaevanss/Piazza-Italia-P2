@@ -16,17 +16,6 @@ function myFunction() {
   }
 }
 
-$(window).scroll(function(){
-    $(".arrow-down").css("opacity", 1 - $(window).scrollTop() / 250);
-  });
-
-
-
-
-
-
-
-
 
 
 

@@ -25,13 +25,60 @@
 				<li><a href="about.html">About Us</a></li>
 
 				<div class="container">
-  <button class="btn-1"><a class="btn-" href="reservation.html"><span>Reservations</span></a></button>	
+  <button class="btn-1"><a class="btn-1" href="reservation.html"><span>Reservations</span></a></button>	
 	</div>
 </ul>
 </nav>
 
 <header></header>
 	<main>
+
+		<div class="reservation-form-container">
+  <form action="action_page.php">
+
+<div class="names">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Required">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Required">
+ </div>
+
+ <div class="contact">
+ 	<label for="tel">Phone Number</label><input type="tel" placeholder="Required">
+    <label for="email">Email</label><input type="email" placeholder="Required">
+ </div>
+
+
+    <label for="guests">Number of Guests</label>
+    <select id="guests" name="guests">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+       <option value="6">6</option>
+       <option value="7">7</option>
+       <option value="8">8</option>
+       <option value="9">9</option>
+       <option value="10">10</option>
+   </select>
+
+ <div class="when">
+   <label for="Date">Date</label><input type="date">
+
+   <label for="time">Time</label><input type="time" step="900" min="11:30" max="21:00">
+ </div>
+
+    <label for="requests">Special Requests</label>
+    <textarea id="requests" name="requests" placeholder="Please list any special requests for your dining experience..." style="height:200px"></textarea>
+
+<div class="wrap">
+  <button class="submitbutton">Submit</button>
+</div>
+
+  </form>
+</div>
 	<!-- Main content here -->
 	</main>
 	<footer>
