@@ -1,6 +1,5 @@
 /* TEXT/HEADERS */
 
-
 h1 { 
 	font-family: 'Cardo', serif;
 	font-size: 30px;
@@ -17,7 +16,9 @@ h2 {
 }
 
 h3 {
-	font-size: 10px;
+	font-size: 12px;
+	line-height: 120%;
+	letter-spacing: .75px;
 }
 
 h4, p {
@@ -33,9 +34,9 @@ p {
 	font-size: 12px;
 }
 
-/*DESKTOP HEADER START*/
+/*INDEX DESKTOP HEADER START*/
 
-header {
+.index {
 	background-image: url(../images/blur-restaurant-background.jpeg);
 	width: 100%;
 	background-repeat: no-repeat;
@@ -49,7 +50,7 @@ margin-bottom: 60vh;
 margin-right: 20%;
 margin-left: 20%;}
 
-/*DESKTOP HEADER END*/
+/*INDEX DESKTOP HEADER END*/
 
 
 /*SUBPAGE HEADER START*/
@@ -65,7 +66,7 @@ margin-left: 20%;}
 }
 
 nav {
-
+padding-top: 10px;
 	width: 100vw;
 	display: flex;
 	justify-content: space-around;
@@ -86,6 +87,13 @@ box-shadow: 0px 10px 42px -8px rgba(0,0,0,0.44);
 		margin-top: 40px;
 }
 
+.navlogo {
+	max-height: 85px;
+	width: auto;
+	margin-top: -35px;
+	margin-left: -40px;
+}
+
 a {
 	color: rgb(226, 226, 226);
 	font-size: 18px;
@@ -94,9 +102,10 @@ a {
 	letter-spacing: 1.75px;
 }
 
-nav a:hover {
+nav li a:hover {
 	 opacity: 0.6;
 }
+
 
 .sticky {
   position: fixed;
@@ -222,7 +231,58 @@ button:hover span::before, button:hover span::after{
 
 /*RESERVATION BUTTON END*/
 
-/*FOOTERS*/
+/*DOWN ARROW START*/
+
+
+div .arrow-down {
+	margin-right: -50%;
+	padding: 200px 0;
+
+}
+
+.arrow-down {
+	width: 100%;
+	margin: auto;
+	text-align: center; 
+}
+
+.arrow-down::after {
+	content: "";
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 51%;
+	border-right: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-animation: 1s arrow infinite ease;
+	animation: 1s arrow infinite ease;
+
+}
+
+@-webkit-keyframes arrow {
+	0%, 100% {
+		top: 50px;
+	} 
+	50% {
+		top: 80px;
+	}
+}
+@keyframes arrow {
+	0%, 100% {
+		top: 50px;
+	} 
+	50% {
+		top: 80px;
+	}
+}
+
+/*DOWN ARROW END*/
+
+/*DESKTOP FOOTER START*/
 
 footer 
 {background: black;
@@ -231,42 +291,36 @@ width: 100%;
 text-align: center;
 
 padding: 20px;
-margin-top: 4000px;}
+margin-top: 400px;}
+
+.smicons {
+	width: 70%;
+	height: auto;
+}
 
 
-footer .socialmedia_icons 
-
-	{display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 40px;
-	width: 50%;
+.socialmediaicons
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 40%;
 	margin: auto;
-	margin-bottom: 20px;
-	}
+	padding: 150px;
+	margin-top: -100px;
 
-footer .contact_footer
+
+}
+
+footer .contactinfo
 {display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 12px;
 	width: 50%;
 	margin: auto;
 	margin-bottom: 20px;}
+/*DESKTOP FOOTER END*/
 
-/* GRIDS */
-
-.grid {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-gap: 40px;
-	width: 80%;
-	margin: auto;
-	padding: 20px;
-}
-
-.grid div {
-	background-color: #ccc;
-	padding: 20px;
-}
 
 
 
@@ -275,7 +329,7 @@ footer .contact_footer
 	.grid {
 	
 	grid-template-columns:1fr 1fr;
-	width: 70%;
+	width: 100%;
 	}
 
 
