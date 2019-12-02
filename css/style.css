@@ -33,42 +33,170 @@ p {
 	font-size: 12px;
 }
 
+/*DESKTOP HEADER START*/
+
 header {
-	background: linear-gradient(rgba(0,0,100,0.5), rgba(0,0,100,0.5), url("bar-pour.png");
+	background-image: url(../images/blur-restaurant-background.jpeg);
+	width: 100%;
+	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
-	height: 100vh;
 }
 
-/* IMGS ensures that your images stretch the width of their containers */
+ .logo { width: 50%;
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 25%;
+margin-left: 25%;}
 
-img { width: 100%; }
+/*DESKTOP HEADER START*/
 
 
+/*SUBPAGE HEADER START*/
+/*SUBPAGE HEADER START*/
+
+
+/*DESKTOP NAV BAR START*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
 
 nav {
-	position: fixed;
-	width: 100%;
-	line-height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: black;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700px;
 }
 
-nav ul {
-	float: right;
-	margin: 0;
-	padding-right: 42px;
-
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+		width: 90%;
+		margin-top: 40px;
 }
 
-nav ul li {
-	display: inline-block;
-	padding: 16px, 32px;
-}
-
-nav ul li a {
+a {
+	color: rgb(226, 226, 226);
+	font-size: 18px;
+	text-transform: uppercase;
 	text-decoration: none;
-	color: #fff;
-	font-size: 16px;
+	letter-spacing: 1.75px;
 }
+
+/*RESERVATION BUTTON START*/
+
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'PT Sans', sans-serif;
+  display: table;
+  width: 100%;
+  background: #f54785;
+}
+.container{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: -40px;
+
+
+}
+button{
+  display: inline-block;
+  position: relative;
+  background: none;
+  color: white;
+  border: 3px solid rgb(247, 146, 29);
+  font-size: 18px;
+  cursor: pointer;
+  margin: 20px 0px;
+  background: rgba(0,0,0,0);
+
+}
+
+button:hover {
+	border: 3px solid black;
+}
+
+span{
+  display: block;
+  padding: 20px 50px;
+  background-color: black;
+	color: white;
+	
+
+}
+
+span:hover {
+	background-color:  rgb(247, 146, 29);
+	color: white;
+	transition: all 0.4s linear;
+
+}
+
+button::before, button::after{
+  content:"";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: rgb(247, 146, 29);
+}
+
+span::before, span::after{
+  content:"";
+  width:2px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: rgb(247, 146, 29);
+}
+button:hover::before, button:hover::after{
+  width: 100%;
+}
+button:hover span::before, button:hover span::after{
+  height: 100%;
+}
+
+.btn-1::before, .btn-1::after{
+  transition-delay: 0.2s;
+}
+.btn-1 span::before, .btn-1 span::after{
+  transition-delay: 0s;
+}
+.btn-1::before{
+  right: 0;
+  top: 0;
+}
+.btn-1::after{
+  left: 0;
+  bottom: 0;
+}
+.btn-1 span::before{
+  left: 0;
+  top: 0;
+}
+.btn-1 span::after{
+  right: 0;
+  bottom: 0;
+}
+.btn-1:hover::before, .btn-1:hover::after{
+  transition-delay: 0s;
+}
+.btn-1:hover span::before, .btn-1:hover span::after{
+  transition-delay: 0.2s;
+}
+
+/*RESERVATION BUTTON END*/
 
 /*FOOTERS*/
 
@@ -88,7 +216,8 @@ footer .socialmedia_icons
 	grid-gap: 40px;
 	width: 50%;
 	margin: auto;
-	margin-bottom: 20px;}
+	margin-bottom: 20px;
+	}
 
 footer .contact_footer
 {display: grid;
@@ -113,6 +242,7 @@ footer .contact_footer
 	background-color: #ccc;
 	padding: 20px;
 }
+
 
 
 @media only screen and (min-width: 768px) {
