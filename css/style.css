@@ -64,6 +64,8 @@ margin-left: 25%;}
 }
 
 nav {
+	position: fixed;
+	width: 100vw;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -87,6 +89,19 @@ a {
 	text-decoration: none;
 	letter-spacing: 1.75px;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
 
 /*RESERVATION BUTTON START*/
 
@@ -206,7 +221,8 @@ color: white;
 width: 100%;
 text-align: center;
 
-padding: 20px;}
+padding: 20px;
+margin-top: 4000px;}
 
 
 footer .socialmedia_icons 
