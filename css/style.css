@@ -70,8 +70,10 @@ margin-left: 20%;}
 
 
 .bar-rione-glass {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	columns: 2;
-	column-gap: 0;
+	column-gap: 8%;
 	width: 70%;
 	margin: auto;
 	margin-right: 15%;
@@ -139,8 +141,10 @@ margin-left: 20%;}
 }
 
 .green-pasta {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	columns: 2;
-	column-gap: 0;
+	column-gap: 8%;
 	width: 70%;
 	margin: auto;
 	margin-right: 15%;
@@ -149,8 +153,10 @@ margin-left: 20%;}
 }
 
 .about-us{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	columns: 2;
-	column-gap: 0;
+	column-gap: 8%;
 	width: 70%;
 	margin: auto;
 	margin-right: 15%;
@@ -197,7 +203,7 @@ box-shadow: 0px 10px 42px -8px rgba(0,0,0,0.44);
 .nav-links {
 	display: flex;
 	justify-content: space-around;
-		width: 90%;
+		width: 80%;
 		margin-top: 40px;
 }
 
@@ -242,20 +248,23 @@ nav li a:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 body{
   font-family: 'Libre Franklin', sans-serif;
   display: table;
   width: 100%;
   background: #f54785;
 }
+
 .container{
   display: table-cell;
   vertical-align: middle;
   text-align: center;
   margin-top: -40px;
-
+  margin-left: -10px
 
 }
+
 button{
   display: inline-block;
   position: relative;
@@ -368,7 +377,7 @@ div .arrow-down {
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	left: 50%;
+	left: 49%;
 	border-right: 4px solid #fff;
 	border-bottom: 4px solid #fff;
 	-webkit-transform: rotate(45deg);
