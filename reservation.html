@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Piazza Italia</title>
+	<title>Piazza Italia - Reservations</title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -15,7 +15,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Cardo:400,400i,700&display=swap&subset=greek,greek-ext,latin-ext" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i&display=swap&subset=latin-ext" rel="stylesheet">
 </head>
-<body>
+<body class="reservation-page">
 <nav class="navbar sticky">
 			
 				<ul class="nav-links">
@@ -29,8 +29,8 @@
 </nav>
 
 <header>
-	
-<h2 class="form-prompt">Fill out the form below to create a reservation.</h2>
+	<h1 class="revervations-title">RESERVATIONS</h1>
+<h2 class="form-prompt">We can't wait for you to join us at the table.</h2>
 
 </header>
 	<main>
@@ -74,19 +74,20 @@
 
     <label for="requests">Special Requests</label>
     <textarea id="requests" name="requests" placeholder="Please list any special requests for your dining experience..." style="height:200px"></textarea>
+    <div class="button2"><a class="button2" href="index.html">
+  	<svg>
+    <rect x="0" y="0" fill="none" width="166" height="45"/></svg>Submit</a></div>	
   </form>
 </div>
 
-<div class="submit-container">
-  <button class="submit btn-1"><a class="btn-1" href=""><span>Submit</span></a></button>	
-	</div>
+
+
 
 
 	<!-- Main content here -->
 	</main>
 	<footer>
 
-		<footer>
 
 <div class="socialmediaicons">
 			<a href="https://www.facebook.com/PiazzaItaliaPortland/">
@@ -125,7 +126,7 @@
 
 </footer>
 		<!-- footer content here -->
-	</footer>
+
 	<!-- link for jquery -->
 	<script
   	src="https://code.jquery.com/jquery-3.4.1.min.js"

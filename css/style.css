@@ -50,17 +50,6 @@ h6{
 	opacity: 50%;
 }
 
-.sign-off {
-	font-weight: 700;
-	font-style: italic;
-	font-size: 20px;
-	opacity: .6;
-	margin-left: -2em;
-	margin-bottom: 50px;
-	margin-top: 50px;
-
-}
-
 p {
 	font-size: 16px;
 	line-height: 135%;
@@ -199,15 +188,6 @@ margin-left: 20%;
 	padding-bottom: 25%;
 }
 /*MAIN DESKTOP END*/
-
-
-/*SUBPAGE HEADER START*/
-.form-prompt {
-	margin-top: 25vh;
-	text-align: center;
-}
-/*SUBPAGE HEADER START*/
-
 
 /*DESKTOP NAV BAR START*/
 *{
@@ -425,6 +405,17 @@ div .arrow-down {
 
 
 /*ABOUT PAGE START*/
+
+.sign-off {
+	font-weight: 100;
+	font-style: italic;
+	font-size: 20px;
+	opacity: .6;
+	margin-left: -2em;
+	margin-bottom: 20px;
+	margin-top: 70px;
+}
+
 .contacticons {
 margin-top: -30px;
 margin-bottom: 18px;
@@ -467,10 +458,10 @@ margin-bottom: 36px;
 }
 
 .about-content{
-	width: 68%;
+	width: 50%;
 	margin-top: 80px;
-	margin-right: 16%;
-	margin-left: 16%;
+	margin-right: 25%;
+	margin-left: 25%;
 }
 
 .about-us {
@@ -480,6 +471,15 @@ margin-bottom: 36px;
 	background-size: cover;
 	height: 65vh;
 }
+
+/*GOOGLE MAP START*/
+.googlemap {
+margin-left: 18%; 
+margin-right: 0%;
+margin-bottom: 50px;
+margin-top: 30px;
+}
+/*GOOGLE MAP END*/
 
 /*ABOUT PAGE END*/
 
@@ -494,7 +494,7 @@ margin-bottom: 36px;
 .menu-minislide {
 	margin-top: 117px;
 	width:100%; 
-	height:60vh; 
+	height:65vh; 
 	overflow:hidden; 
 	position:relative; 
 }
@@ -563,6 +563,7 @@ margin-bottom: 36px;
 	font-weight: 500;
 	font-size: 18px;
 	letter-spacing: 1.1px;
+	line-height: 135%;
 
 }
 
@@ -576,14 +577,18 @@ margin-bottom: 36px;
 
 /*MENU PAGE END*/
 
+/*RESERVATION PAGE STARTS*/
 
-/*GOOGLE MAP START*/
-.googlemap {
-margin-left: 24%; 
-margin-right: 0%;
-margin-bottom: 50px;
+.reservation-page{
+	background-color: black;
 }
-/*GOOGLE MAP END*/
+
+.form-prompt {
+	margin-top: 40px;
+	text-align: center;
+	color: rgb(247, 146, 29);
+	font-weight: 200;
+}
 
 /*Reservation Form start*/
 
@@ -662,26 +667,17 @@ width: 100%;
 background-color: #282828;
 color: white;}
 
-input[type=submit] {
-  background-color: none;
-  color: white;
-  padding: 30px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
 input[type=submit]:hover {
   background-color: none
   ;
 }
 
 .reservation-form-container {
-	width: 50%;
+	width: 60%;
 	margin: auto;
 	margin-top: 8vh;
   border-radius: 20px;
-  background-color: #121212;
+  background-color: black;
   padding: 40px 50px;
 }
 
@@ -711,17 +707,54 @@ column-gap: 30px;
 
 /*SUBMIT BUTTON START*/
 
-.submit-container {
-	margin-right: auto;
-	margin-left: 45%;
-	margin-top: 20px;
+.reservationss-title{
+margin-top: -200px;
+	color: black;
+	margin-bottom: 30px;
 }
 
-.submit .btn-1 {
-	border: none;
+.button3 {
+	font-family: 'Libre Franklin', sans-serif;
+  display: block;
+  width: 166px;
+  height: 45px;
+  font-size: 14px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(247, 146, 29);
+  cursor: pointer;
+  overflow: hidden;
+}
+.button3 svg {
+  position: absolute;
+  top: 0; left: 0;
+}
+.button3 svg rect {
+  fill: none;
+  stroke: rgb(247, 146, 29);
+  stroke-width: 3px;
+  stroke-dasharray: 422, 0;
+  transition: 1s;
+  
+  @include transition(all 1300ms $ease-out-expo);
+}
+.button3:hover svg rect {
+  stroke-width: 3px;
+  stroke-dasharray: 10, 310;
+  stroke-dashoffset: 33;
+}
+
+.button3:hover {
+  color:rgb(247, 146, 29);
+  font-size:14px;
+  letter-spacing:1px;
+  font-weight:bold;
 }
 
 /*SUBMIT BUTTON END*/
+
+/*RESERVATION PAGE END*/
 
 /*DESKTOP FOOTER START*/
 
@@ -752,11 +785,12 @@ margin-right: -5%;}
 	padding-top: 3%;
 	padding-bottom: 
 	margin-top: -100px;
+
 }
 
 .copyright {
 	text-align: center;
-	padding: 20px 0px 0px 20px;
+	padding: 30px 0px 0px 20px;
 	margin: auto;
 }
 
