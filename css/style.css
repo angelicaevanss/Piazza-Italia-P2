@@ -1,10 +1,15 @@
-/* TEXT/HEADERS */
-
+/* TEXT/HEADERS START*/
 h1 { 
-	font-family: 'Libre Franklin', sans-serif;
-	font-size: 30px;
-	font-weight: 700px;
-	 }
+	font-family: 'Libre Franklin', sans-serif,;
+	font-size: 70px;
+	font-weight: 100;
+	color: white;
+	padding-top: 30vh;
+	text-align: center;
+	letter-spacing: 5px;
+	font-style: italic;
+
+}
 
 h2, h3, {
 	font-family: 'Cardo', serif;
@@ -27,29 +32,47 @@ h4, p {
 }
 
 h4 {
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 220%;
 	font-weight: 100;
-
 }
 
 h5 {
-		font-size: 14px;
+		font-size: 16px;
 	line-height: 220%;
-	font-weight: 300;
+	font-weight: 400;
+}
 
+h6{
+	font-size: 16px;
+	line-height: 220%;
+	font-weight: 100;
+	opacity: 50%;
+}
+
+.sign-off {
+	font-weight: 700;
+	font-style: italic;
+	font-size: 20px;
+	opacity: .6;
+	margin-left: -2em;
+	margin-bottom: 50px;
+	margin-top: 50px;
 
 }
 
 p {
-	font-size: 12px;
+	font-size: 16px;
+	line-height: 135%;
+	text-indent: 2em;
+	font-weight: 300;
+	margin-bottom: 30px;
+	letter-spacing: .75px;
 }
-
-
+/* TEXT/HEADERS END*/
 
 
 /*INDEX DESKTOP HEADER START*/
-
 .index {
 	background-image: url(../images/blur-restaurant-background.jpeg);
 	width: 100%;
@@ -62,14 +85,11 @@ p {
 margin-top: 40vh;
 margin-bottom: 60vh;
 margin-right: 20%;
-margin-left: 20%;}
-
-
-
+margin-left: 20%;
+}
 /*INDEX DESKTOP HEADER END*/
 
 /*INDEX MAIN DESKTOP START*/
-
 .slogan {
 	text-align: center;
 	margin-top: 10vh;
@@ -162,7 +182,7 @@ margin-left: 20%;}
 	position: relative;
 }
 
-.about-us{
+.about-us-index{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	columns: 2;
@@ -178,22 +198,18 @@ margin-left: 20%;}
 	padding-top: 25%;
 	padding-bottom: 25%;
 }
-
 /*MAIN DESKTOP END*/
 
 
 /*SUBPAGE HEADER START*/
-
 .form-prompt {
 	margin-top: 25vh;
 	text-align: center;
 }
-
 /*SUBPAGE HEADER START*/
 
 
 /*DESKTOP NAV BAR START*/
-
 *{
 	margin: 0px;
 	padding: 0px;
@@ -241,13 +257,11 @@ nav li a:hover {
 	 opacity: 0.6;
 }
 
-
 .sticky {
   position: absolute;
   top: 0;
   width: 100%;
 }
-
 
 .sticky + .content {
   padding-top: 60px;
@@ -256,8 +270,6 @@ nav li a:hover {
 
 
 /*RESERVATION BUTTON START*/
-
-
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -277,7 +289,6 @@ body{
   text-align: center;
   margin-top: -40px;
   margin-left: -10px
-
 }
 
 button{
@@ -290,27 +301,23 @@ button{
   cursor: pointer;
   margin: 20px 0px;
   background: rgba(0,0,0,0);
-
 }
 
 button:hover {
-	border: 3px solid black;
+	border: 3px solid none;
 }
 
 span{
   display: block;
   padding: 20px 50px;
-  background-color: black;
-	color: white;
-	
-
+  background-color: none;
+	color: rgb(247, 146, 29);
 }
 
 span:hover {
 	background-color:  rgb(247, 146, 29);
 	color: white;
 	transition: all 0.4s linear;
-
 }
 
 button::before.btn-1, button::after.btn-1{
@@ -365,14 +372,11 @@ button:hover span::before, button:hover span::after{
 .btn-1:hover span::before, .btn-1:hover span::after{
   transition-delay: 0.2s;
 }
-
 /*RESERVATION BUTTON END*/
 
 /*DOWN ARROW START*/
-
 div .arrow-down {
 	margin-right: -50%;
-
 }
 
 .arrow-down {
@@ -399,7 +403,6 @@ div .arrow-down {
 	transform: rotate(45deg);
 	-webkit-animation: 1s arrow infinite ease;
 	animation: 1s arrow infinite ease;
-
 }
 
 @-webkit-keyframes arrow {
@@ -418,8 +421,77 @@ div .arrow-down {
 		top: 80px;
 	}
 }
-
 /*DOWN ARROW END*/
+
+
+/*ABOUT PAGE START*/
+.contacticons {
+margin-top: -30px;
+margin-bottom: 18px;
+width: 50%;
+height: auto;
+margin-left: 80px; 
+}
+
+.footerwords{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
+	margin-left: 5%;
+	margin-top: 70px;
+}
+
+.contact-info-footer{
+margin-bottom: 36px;
+}
+
+.contactinfo {
+	margin-top: 10px;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	text-align: left;
+	width: 100%;
+	margin-right: 20px;
+	margin-left: 30%;
+	justify-content: flex;
+}
+
+.hours {
+	margin-top: 10px;
+	display: grid;
+	grid-template-columns: 1fr;
+	text-align: left;
+	margin-bottom: 50px;
+	width: 200%;
+	margin-right: 0;
+}
+
+.about-content{
+	width: 68%;
+	margin-top: 80px;
+	margin-right: 16%;
+	margin-left: 16%;
+}
+
+.about-us {
+	margin-top: 115px;
+	background-image: url(../images/line-cooks.jpg);
+	width: 100%;
+	background-size: cover;
+	height: 65vh;
+}
+
+
+/*ABOUT PAGE END*/
+
+
+/*GOOGLE MAP START*/
+.googlemap {
+margin-left: 24%; 
+margin-right: 0%;
+margin-bottom: 50px;
+}
+/*GOOGLE MAP END*/
 
 /*Reservation Form start*/
 
@@ -512,7 +584,6 @@ input[type=submit]:hover {
   ;
 }
 
-
 .reservation-form-container {
 	width: 50%;
 	margin: auto;
@@ -520,7 +591,6 @@ input[type=submit]:hover {
   border-radius: 20px;
   background-color: #121212;
   padding: 40px 50px;
-
 }
 
 .names {
@@ -545,18 +615,21 @@ column-gap: 30px;
   align-items: center;
   justify-content: center;
 }
-
-
 /*Reservation Form end*/
+
+/*SUBMIT BUTTON START*/
 
 .submit-container {
 	margin-right: auto;
 	margin-left: 45%;
 	margin-top: 20px;
-
 }
 
-.submit .btn-1 {border: none;}
+.submit .btn-1 {
+	border: none;
+}
+
+/*SUBMIT BUTTON END*/
 
 /*DESKTOP FOOTER START*/
 
@@ -577,13 +650,6 @@ margin-right: -5%;}
 	height: auto;
 }
 
-.contacticons {
-margin-top: -30px;
-margin-bottom: 0px;
-width: 50%;
-height: auto;
-margin-left: 80px; }
-
 .socialmediaicons
 {
 	display: grid;
@@ -596,40 +662,6 @@ margin-left: 80px; }
 	margin-top: -100px;
 }
 
-.footerwords{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	width: 100%;align-content: center;
-	margin-top: 100px;
-}
-
-.contact-info-footer{
-margin-bottom: 20px;
-}
-
-.contactinfo {
-	margin-top: 50px;
-	display: grid;
-	grid-template-columns: 20% 80%;
-	text-align: left;
-	margin-bottom: 10vh;
-	width: 100%;
-	margin-right: 20px;
-	margin-left: 30%;
-	justify-content: flex;
-}
-
-.hours {
-	margin-top: 50px;
-	display: grid;
-	grid-template-columns: 1fr;
-	text-align: left;
-	margin-bottom: 10vh;
-	width: 100%;
-	margin-right: 35%;
-
-}
-
 .copyright {
 	text-align: center;
 	padding: 20px 0px 0px 20px;
@@ -637,18 +669,6 @@ margin-bottom: 20px;
 }
 
 /*DESKTOP FOOTER END*/
-
-@media only screen and (max-width: 768px) {
-	body { background-color: #F6F6F6;}
-	.grid {
-	
-	grid-template-columns:1fr 1fr;
-	width: 100%;
-	}
-
-
-	}
-
 
 @media only screen and (min-width: 768px) {
 	body { background-color: #F6F6F6;}
@@ -671,10 +691,3 @@ margin-bottom: 20px;
 	}
 
 	}
-
-
-/*
-font-family: 'Mansalva', cursive;
-font-family: 'Dosis', sans-serif;
-font-family: 'Indie Flower', cursive;
-*/
