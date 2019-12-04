@@ -27,7 +27,18 @@ h4, p {
 }
 
 h4 {
-	font-size: 14px;
+	font-size: 12px;
+	line-height: 220%;
+	font-weight: 100;
+
+}
+
+h5 {
+		font-size: 14px;
+	line-height: 220%;
+	font-weight: 300;
+
+
 }
 
 p {
@@ -48,7 +59,7 @@ p {
 }
 
  .logo { width: 60%;
-margin-top: 35vh;
+margin-top: 40vh;
 margin-bottom: 60vh;
 margin-right: 20%;
 margin-left: 20%;}
@@ -83,10 +94,9 @@ margin-left: 20%;}
 
 .thing {
 	text-align: left;
-	margin-bottom: 0px;
+	margin-bottom: 30px;
 	font-weight: 500;
 	font-size: 40px;
-	padding: 120px 50px 30px 0px;
 	letter-spacing: 1.5px;
 }
 
@@ -164,6 +174,11 @@ margin-left: 20%;}
 	position: relative;
 }
 
+.about {
+	padding-top: 25%;
+	padding-bottom: 25%;
+}
+
 /*MAIN DESKTOP END*/
 
 
@@ -228,7 +243,7 @@ nav li a:hover {
 
 
 .sticky {
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
 }
@@ -548,38 +563,79 @@ column-gap: 30px;
 footer 
 {background: black;
 color: white;
-width: 100%;
+width: 110%;
 text-align: center;
-
+position: absolute;
 padding: 20px;
-margin-top: 400px;}
+margin-top: 120px;
+margin-bottom: -10%;
+margin-left: -5%;
+margin-right: -5%;}
 
 .smicons {
-	width: 70%;
+	width: 50%;
 	height: auto;
 }
 
+.contacticons {
+margin-top: -30px;
+margin-bottom: 0px;
+width: 50%;
+height: auto;
+margin-left: 80px; }
 
 .socialmediaicons
 {
-	display: flex;
-	justify-content: space-around;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	align-items: center;
-	width: 40%;
+	width: 30%;
 	margin: auto;
-	padding: 150px;
+	padding-top: 3%;
+	padding-bottom: 
 	margin-top: -100px;
+}
 
+.footerwords{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;align-content: center;
+	margin-top: 100px;
+}
+
+.contact-info-footer{
+margin-bottom: 20px;
+}
+
+.contactinfo {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	text-align: left;
+	margin-bottom: 10vh;
+	width: 100%;
+	margin-right: 20px;
+	margin-left: 30%;
+	justify-content: flex;
+}
+
+.hours {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: 1fr;
+	text-align: left;
+	margin-bottom: 10vh;
+	width: 100%;
+	margin-right: 35%;
 
 }
 
-footer .contactinfo
-{display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	grid-gap: 12px;
-	width: 50%;
+.copyright {
+	text-align: center;
+	padding: 20px 0px 0px 20px;
 	margin: auto;
-	margin-bottom: 20px;}
+}
+
 /*DESKTOP FOOTER END*/
 
 @media only screen and (max-width: 768px) {
