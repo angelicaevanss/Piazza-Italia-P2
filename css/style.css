@@ -190,6 +190,7 @@ margin-left: 20%;
 /*MAIN DESKTOP END*/
 
 /*DESKTOP NAV BAR START*/
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -796,24 +797,20 @@ margin-right: -5%;}
 
 /*DESKTOP FOOTER END*/
 
-@media only screen and (min-width: 768px) {
+/*DONT DISPLAY stART*/
+
+/*DONT DISPLAY end*/
+
+
+/*MOBILE MEDIA START*/
+
+@media only screen and (max-width: 768px) {
 	body { background-color: #F6F6F6;}
-	.grid {
-	
-	grid-template-columns:1fr 1fr;
-	width: 100%;
-	}
 
 
-	}
 
+/*MOBILE MEDIA END*/
 
 @media only screen and (min-width: 1024px) {
 	body { background-color: #F6F6F6;}
-	.grid {
-	
-	grid-template-columns:1fr 1fr 1fr;
-	width: 70%;
-	}
-
-	}
+}
