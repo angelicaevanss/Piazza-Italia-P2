@@ -872,38 +872,36 @@ header{
 	background-color: black;
 	height: 100px;
 	width: 100%;
-	margin-top: -20px;
+	margin-top: -80px;
 }
 
 .mobile-header{
 display: inherit;
-height: 12vh;
+height: 4.5vh;
 margin: auto;
 width: 100%;
 }
 
 .logo{display: inherit;
-height: 10vh;
+height: 12vh;
 width: auto;
 margin: auto;
-margin-left: 31%;
-margin-top: 2vh;
+margin-left: 29%;
+margin-top: -75px;
 background: none;}
 
 .burger{display: inherit;
-width: 90%;}
+width: 70%;}
 
 .burger:hover {
-	opacity: .8;
+	opacity: .7;
 	transition: .4s;
-	width: 90%;
+	width: 70%;
 }
 
 .mobile-nav {
 	display: inherit;
-	background-color: black;
-	margin: auto;
-	padding-left: 20px;
+	background-color: none;
 }
 
 li {
@@ -914,7 +912,6 @@ li {
 .dropdown {
   display: inline-block;
   position: relative;
-  margin-top: -230px;
 }
 
 .dd-button {
@@ -923,21 +920,10 @@ li {
   cursor: pointer;
   white-space: nowrap;
   width: 50%;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 20px;
 }
-
-.dd-button:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 0; 
-  height: 0; 
-}
-
-.dd-button:hover {
-  background-color: none;
-}
-
 
 .dd-input {
   display: none;
@@ -972,12 +958,12 @@ li {
 .dd-menu li a {
   display: block;
   margin: -10px -20px;
-  padding: 10px 20px;
+  padding: 40px 40px;
+  margin-left: 19%;
 }
 
 .dd-menu li.divider{
   padding: 0;
-  border-bottom: 1px solid #cccccc;
 }
 
 /*Stuff thats not displayed*/
