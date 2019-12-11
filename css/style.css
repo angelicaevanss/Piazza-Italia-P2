@@ -419,60 +419,37 @@ div .arrow-down {
 }
 
 .contacticons {
-margin-top: -30px;
-margin-bottom: 18px;
-width: 50%;
-height: auto;
-margin-left: 80px; 
+display: none;
 }
 
-.footerwords{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	width: 100%;
-	margin-left: 5%;
-	margin-top: 70px;
-}
+.contactwords {text-align: center;
+margin-top: 50px;
+margin-bottom: 35px;}
+
 
 .contact-info-footer{
-margin-bottom: 36px;
-}
+font-weight: 500;}
 
-.contactinfo {
-	margin-top: 10px;
-	display: grid;
-	grid-template-columns: 20% 80%;
-	text-align: left;
-	width: 100%;
-	margin-right: 20px;
-	margin-left: 30%;
-	justify-content: flex;
-}
 
-.hours {
-	margin-top: 10px;
-	display: grid;
-	grid-template-columns: 1fr;
-	text-align: left;
-	margin-bottom: 50px;
+.hours {text-align: center;
 	width: 100%;
-	margin-right: 0;
+
 }
 
 .about-content{
-	width: 50%;
+	width: 55%;
+	margin: auto;
 	margin-top: 80px;
-	margin-right: 25%;
-	margin-left: 25%;
 }
 
 .about-us {
-	margin-top: 115px;
+	margin-top: 0px;
 	background-image: url(../images/line-cooks.jpg);
 	width: 100%;
 	background-size: cover;
 	height: 65vh;
 }
+
 
 /*GOOGLE MAP START*/
 .googlemap {
@@ -954,6 +931,50 @@ margin-right: -5%;}
 
 }
 
+/*ABOUT PAGE START*/
+
+.sign-off {
+	font-weight: 100;
+	font-style: italic;
+	font-size: 20px;
+	opacity: .6;
+	margin-left: -2em;
+	margin-bottom: 20px;
+	margin-top: 70px;
+}
+
+.contacticons {
+display: none;
+}
+
+.contactwords {text-align: center;
+margin-top: 50px;}
+
+
+.contact-info-footer{
+font-weight: 500;}
+
+
+.hours {text-align: center;
+	width: 100%;
+
+}
+
+.about-content{
+	width: 70%;
+	margin-top: 80px;
+	margin-right: 20%;
+	margin-left: 15%;
+}
+
+.about-us {
+	margin-top: 0px;
+	background-image: url(../images/line-cooks.jpg);
+	width: 100%;
+	background-size: cover;
+	height: 65vh;
+}
+
 
 /*MEDIUM SIZE SCREEN END*/
 
@@ -1160,6 +1181,60 @@ column-gap: 30px;
 
 .submit-page{ width: 90%;
 margin: auto; }
+
+
+/*ABOUT PAGE START*/
+
+.sign-off {
+	font-weight: 100;
+	font-style: italic;
+	font-size: 20px;
+	opacity: .6;
+	margin-left: -2em;
+	margin-bottom: 20px;
+	margin-top: 70px;
+}
+
+.contacticons {
+display: none;
+}
+
+.contactwords {text-align: center;
+margin-top: 50px;}
+.contact-info-footer{
+font-weight: 500;}
+
+
+.hours {text-align: center;
+	width: 100%;
+	mar
+}
+
+.about-content{
+	width: 70%;
+	margin-top: 80px;
+	margin-right: 20%;
+	margin-left: 15%;
+}
+
+.about-us {
+	margin-top: 0px;
+	background-image: url(../images/line-cooks.jpg);
+	width: 100%;
+	background-size: cover;
+	height: 65vh;
+}
+
+/*GOOGLE MAP START*/
+.googlemap {
+margin-left: 18%; 
+margin-right: 0%;
+margin-bottom: 50px;
+margin-top: 30px;
+}
+/*GOOGLE MAP END*/
+
+/*ABOUT PAGE END*/
 
 /*MOBILE FOOTER Start*/
 footer 
