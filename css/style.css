@@ -863,6 +863,31 @@ margin-right: -5%;}
 @media only screen and (max-width: 768px) {
 	body { background-color: #F6F6F6;}
 
+/*MOBILE NAV Start*/
+
+.mobile-header{
+background-color: black;
+height: 12vh;
+margin: auto;
+}
+
+.logo{height: 10vh;
+width: auto;
+margin: auto;
+margin-left: 31%;
+margin-top: 2vh;}
+
+nav.mobile-nav {
+	background-color: black;
+	display: block;
+}
+
+/*Stuff thats not displayed*/
+.index{display: none;}
+.navbar{display: none;}
+.arrow-down{display: none;}
+
+/*MOBILE NAV END*/
 
 /*MOBILE FOOTER Start*/
 footer 
