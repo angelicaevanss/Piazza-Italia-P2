@@ -581,6 +581,10 @@ margin-top: 30px;
 
 /*RESERVATION PAGE STARTS*/
 
+.submit-page{ width: 60%;
+margin: auto; }
+
+
 .reservation-page{
 	background-color: black;
 }
@@ -855,6 +859,12 @@ button{
 
 
 /*Reservation page*/
+.submit-page{ width: 60%;
+margin: auto; }
+
+
+.res-main{height: 100vh;}
+
 .revervations-title {
 	font-size: 52px;
 	letter-spacing: 1px;
@@ -1147,6 +1157,9 @@ column-gap: 30px;
   align-items: center;
   justify-content: center;
 }
+
+.submit-page{ width: 90%;
+margin: auto; }
 
 /*MOBILE FOOTER Start*/
 footer 
