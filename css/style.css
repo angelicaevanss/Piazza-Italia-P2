@@ -800,6 +800,10 @@ margin-right: -5%;}
 
 /*DONT DISPLAY stART*/
 
+.mobile-nav {display: none;}
+.mobile-header {display: none;}
+.burger-babies {display: none;}
+
 /*DONT DISPLAY end*/
 
 @media only screen and (min-width: 1px) {
@@ -864,22 +868,52 @@ margin-right: -5%;}
 	body { background-color: #F6F6F6;}
 
 /*MOBILE NAV Start*/
-
-.mobile-header{
-background-color: black;
-height: 12vh;
-margin: auto;
+header{
+	background-color: black;
+	height: 100px;
+	width: 100%;
+	margin-top: -20px;
 }
 
-.logo{height: 10vh;
+.mobile-header{
+display: inherit;
+height: 12vh;
+margin: auto;
+width: 100%;
+}
+
+.logo{display: inherit;
+height: 10vh;
 width: auto;
 margin: auto;
 margin-left: 31%;
-margin-top: 2vh;}
+margin-top: 2vh;
+background: none;}
 
-nav.mobile-nav {
+.burger-babies {display: inherit;}
+
+.burger{background-color: white;
+	border-width: 2px solid white;
+	margin-top: 10px;
+	margin-bottom-top: 10px;
+	height: 2px;
+	border-radius: 2px;
+	width: 10%;
+}
+.mobile-nav {
+	display: inherit;
 	background-color: black;
-	display: block;
+	margin: auto;
+	padding-left: 20px;
+}
+
+li {
+ display: block;
+ transition-duration: 0.5s;
+}
+
+.mobile-dropdown {
+
 }
 
 /*Stuff thats not displayed*/
