@@ -454,7 +454,7 @@ margin-bottom: 36px;
 	grid-template-columns: 1fr;
 	text-align: left;
 	margin-bottom: 50px;
-	width: 200%;
+	width: 100%;
 	margin-right: 0;
 }
 
@@ -801,6 +801,58 @@ margin-right: -5%;}
 
 /*DONT DISPLAY end*/
 
+@media only screen and (min-width: 1px) {
+	body { background-color: #F6F6F6;}
+
+/*I put this in because without it my backgrond would default to pink idk why*/
+
+
+
+
+@media only screen and (max-width: 1080px) {
+	body { background-color: #F6F6F6;}
+
+/*MEdium FOOTER start*/
+footer 
+{background: black;
+color: white;
+width: 110%;
+text-align: center;
+position: absolute;
+padding: 10px;
+margin-top: 50px;
+margin-bottom: -10%;
+margin-left: -5%;
+margin-right: -5%;}
+
+.smicons {
+	width: 45%;
+	height: auto;
+}
+
+.socialmediaicons
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	align-items: center;
+	width: 50%;
+	margin: auto;
+	padding-top: 4%;
+	padding-bottom: 
+	margin-top: -100px;
+
+}
+
+.copyright {
+	text-align: center;
+	padding: 20px 0px 0px 20px;
+	margin: auto;
+	font-size: 14px;
+	padding-bottom: 7px;
+}
+
+	/*MEdium FOOTER end*/
+}
 
 /*MOBILE MEDIA START*/
 
@@ -808,9 +860,48 @@ margin-right: -5%;}
 	body { background-color: #F6F6F6;}
 
 
+/*MOBILE FOOTER Start*/
+footer 
+{background: black;
+color: white;
+width: 110%;
+text-align: center;
+position: absolute;
+padding: 10px;
+margin-top: 50px;
+margin-bottom: -10%;
+margin-left: -5%;
+margin-right: -5%;}
+
+.smicons {
+	width: 40%;
+	height: auto;
+}
+
+.socialmediaicons
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	align-items: center;
+	width: 70%;
+	margin: auto;
+	padding-top: 4%;
+	padding-bottom: 
+	margin-top: -100px;
+
+}
+
+.copyright {
+	text-align: center;
+	padding: 30px 0px 0px 20px;
+	margin: auto;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+/*MOBILE FOOTER end*/
+
+}
+
+
 
 /*MOBILE MEDIA END*/
-
-@media only screen and (min-width: 1024px) {
-	body { background-color: #F6F6F6;}
-}
