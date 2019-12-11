@@ -816,7 +816,62 @@ margin-right: -5%;}
 
 @media only screen and (max-width: 1080px) {
 	body { background-color: #F6F6F6;}
+/*MEdium nav start*/
 
+.navlogo {
+	max-height: 75px;
+	width: auto;
+	margin-top: -30px;
+	margin-left: -40px;
+}
+a {
+	color: rgb(226, 226, 226);
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 1.75px;
+}
+
+
+.container{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: -43px;
+  margin-left: -10px
+}
+
+button{
+  display: inline-block;
+  position: relative;
+  background: none;
+  color: white;
+  border: 3px solid rgb(247, 146, 29);
+  font-size: 18px;
+  cursor: pointer;
+  margin: 20px 0px;
+  background: rgba(0,0,0,0);
+}
+
+
+/*Reservation page*/
+.form-prompt {
+	margin-top: 30px;
+	text-align: center;
+	color: rgb(247, 146, 29);
+	font-weight: 200;
+	font-size: 18px;
+}
+
+
+.reservation-form-container {
+	width: 80%;
+	margin: auto;
+	margin-top: 5vh;
+  border-radius: 20px;
+  background-color: black;
+  padding: 40px 50px;
+}
 /*MEdium FOOTER start*/
 footer 
 {background: black;
@@ -856,6 +911,15 @@ margin-right: -5%;}
 	padding-bottom: 7px;
 }
 /*MEdium FOOTER end*/
+/*menu page*/
+.menu-minislide {
+	margin-top: 111px;
+	width:100%; 
+	height:65vh; 
+	overflow:hidden; 
+	position:relative; 
+}
+
 .menu-items{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -983,8 +1047,8 @@ li {
   padding: 0;
 }
 
-
 /*MOBILE NAV END*/
+
 /*MOBILE MENU START*/
 .menu-title {
 	display: inherit;
@@ -1030,6 +1094,48 @@ margin: auto;
 	letter-spacing: 1.5px;
 	font-size: 28px;
 	margin-left: 1.5%;
+}
+/*MOBILE MENU End*/
+/*Reservation page*/
+.form-prompt {
+	margin-top: 30px;
+	text-align: center;
+	color: rgb(247, 146, 29);
+	font-weight: 200;
+	font-size: 18px;
+}
+
+
+.reservation-form-container {
+	width: 80%;
+	margin: auto;
+	margin-top: 38vh;
+  border-radius: 20px;
+  background-color: black;
+  padding: 40px 50px;
+}
+
+.names {
+	columns: 1;
+column-gap: 30px;
+}
+
+
+.when {
+	columns: 1;
+	column-gap: 30px;
+}
+
+.contact {
+	columns: 1;
+	column-gap: 30px;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*MOBILE FOOTER Start*/
