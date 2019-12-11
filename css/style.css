@@ -382,9 +382,10 @@ div .arrow-down {
 	border-bottom: 4px solid #fff;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
-	-webkit-animation: 1s arrow infinite ease;
-	animation: 1s arrow infinite ease;
-}
+	-webkit-animation: 1s arrow ease-out 2s 5;
+	animation: 1s arrow ease-out 0s 6;
+	 opacity: 1;
+  transition: opacity 2s linear;}
 
 @-webkit-keyframes arrow {
 	0%, 100% {
@@ -807,7 +808,7 @@ margin-right: -5%;}
 /*I put this in because without it my backgrond would default to pink idk why*/
 
 
-
+/*MEDIUM SIZE SCREEN START*/
 
 @media only screen and (max-width: 1080px) {
 	body { background-color: #F6F6F6;}
@@ -850,9 +851,12 @@ margin-right: -5%;}
 	font-size: 14px;
 	padding-bottom: 7px;
 }
-
-	/*MEdium FOOTER end*/
+/*MEdium FOOTER end*/
 }
+
+
+/*MEDIUM SIZE SCREEN END*/
+
 
 /*MOBILE MEDIA START*/
 
